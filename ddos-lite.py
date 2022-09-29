@@ -111,6 +111,7 @@ class httpPost(Thread):
 def usage():
     print "./ddos-lite.py -t <target> [-r <threads> -p <port> -T -h]"
     print " -t|--target <Hostname|IP>"
+    //up server/hostname
     print " -r|--threads <Number of threads> Defaults to 256"
     print " -p|--port <Web Server Port> Defaults to 80"
     print " -T|--tor Enable anonymising through tor on 127.0.0.1:9050"
@@ -176,7 +177,7 @@ if __name__ == "__main__":
     print " * Slow POST DoS Testing Tool"
     print " * entropy [at] phiral.net"
     print " * Anon-ymized via Tor"
-    print " * We are Legion."
+    print " * We are Region."
     print " */\n"
 
     main(sys.argv[1:])
